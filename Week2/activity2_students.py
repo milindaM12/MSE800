@@ -23,6 +23,8 @@ def collect_students():
 
         # Add to global list
         students_list.append(student)
+        print()
+        print()
 
 
 # # 🔁 Separate function instead of lambda
