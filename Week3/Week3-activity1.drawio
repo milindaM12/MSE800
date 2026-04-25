@@ -4,12 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lEfGaC_MYhllzK-feSdK-3" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lEfGaC_MYhllzK-feSdK-4">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lEfGaC_MYhllzK-feSdK-14" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lEfGaC_MYhllzK-feSdK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEfGaC_MYhllzK-feSdK-27" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lEfGaC_MYhllzK-feSdK-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lEfGaC_MYhllzK-feSdK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Student" vertex="1">
@@ -23,6 +21,14 @@
         </mxCell>
         <mxCell id="lEfGaC_MYhllzK-feSdK-11" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lEfGaC_MYhllzK-feSdK-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEfGaC_MYhllzK-feSdK-26" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lEfGaC_MYhllzK-feSdK-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="240" />
+              <mxPoint x="480" y="150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lEfGaC_MYhllzK-feSdK-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Enrolls" vertex="1">
           <mxGeometry height="80" width="110" x="360" y="220" as="geometry" />
@@ -61,6 +67,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lEfGaC_MYhllzK-feSdK-18" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.595;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="lEfGaC_MYhllzK-feSdK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEfGaC_MYhllzK-feSdK-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="enrollment_id" vertex="1">
+          <mxGeometry height="40" width="80" x="220" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lEfGaC_MYhllzK-feSdK-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="student_id" vertex="1">
+          <mxGeometry height="40" width="80" x="360" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lEfGaC_MYhllzK-feSdK-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="course_id" vertex="1">
+          <mxGeometry height="40" width="80" x="500" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lEfGaC_MYhllzK-feSdK-24" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" target="lEfGaC_MYhllzK-feSdK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lEfGaC_MYhllzK-feSdK-25" edge="1" parent="1" source="lEfGaC_MYhllzK-feSdK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.688;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="lEfGaC_MYhllzK-feSdK-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
