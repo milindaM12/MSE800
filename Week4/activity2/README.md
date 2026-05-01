@@ -14,4 +14,4 @@ This project calculates the area and perimeter of a rectangle using Object-Orien
 2. Enter dimensions when prompted
 
 ## Author
-Your Name
+Yasas Milinda Manamperi
