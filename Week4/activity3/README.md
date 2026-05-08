@@ -1,8 +1,8 @@
 Use Case Diagram 1 – Customer Operations
 
-This diagram represents the interactions between the Customer and the finance money exchange system. The customer can register, create accounts, view account details, perform currency exchange transactions, and view transaction history. This diagram focuses on the core functionalities available to end users and highlights how customers interact with the system to manage their financial activities.
+This diagram illustrates how customers interact with the finance money exchange system. Customers can register, log in, create accounts, and perform currency exchange transactions. During the exchange process, the system automatically calculates exchange rates before completing the transaction. Customers can also view their account details and transaction history.
 
 
 Use Case Diagram 2 – Admin Operations
 
-This diagram illustrates the role of the Admin in managing the finance money exchange system. The admin is responsible for maintaining system data, including adding new currencies, updating exchange rates, managing customer accounts, and monitoring transactions. This diagram highlights system-level operations that ensure the proper functioning and integrity of the platform.
+This diagram represents the administrative functionalities of the finance money exchange system. The Admin is responsible for maintaining currency information, updating exchange rates, monitoring transactions, generating reports, and managing customer accounts. These operations help ensure system reliability, data accuracy, and secure financial processing.
