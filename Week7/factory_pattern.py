@@ -58,12 +58,8 @@ class Cat(Animals):
         print(f"I'm a Cat, I can run!!")
 
 
-
-
-
 # client
 factory = DogFactory()
 dog = Dog()
 dog = factory.create_product()
-
 dog.run()
