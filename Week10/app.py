@@ -1,3 +1,13 @@
+"""
+Main Flask application for the User Management System.
+
+Provides:
+- User Registration
+- User Authentication
+- Profile Management
+- Password Recovery
+"""
+
 from flask import Flask
 from flask import render_template
 from flask import request
@@ -17,11 +27,23 @@ app = create_app()
 
 @app.route("/")
 def home():
+    """
+    Redirect users to the login page.
+    """
     return redirect("/login")
 
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
+    """
+    Handle user registration requests.
+
+    GET:
+        Display registration form.
+
+    POST:
+        Create a new user account.
+    """
 
     if request.method == "POST":
 
@@ -40,6 +62,9 @@ def register():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    """
+    Authenticate users and create a session.
+    """
 
     if request.method == "POST":
 
@@ -85,6 +110,9 @@ def profile():
 @app.route("/forgot-password",
            methods=["GET", "POST"])
 def forgot_password():
+    """
+    Generate a password reset token for a user.
+    """
 
     token = None
 
@@ -103,6 +131,12 @@ def forgot_password():
 @app.route("/reset-password/<token>",
            methods=["GET", "POST"])
 def reset(token):
+    """
+    Reset a user's password using a valid token.
+
+    Args:
+        token (str): Password reset token.
+    """
 
     if request.method == "POST":
 
