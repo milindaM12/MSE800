@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Viewer Application</title>
+</head>
+<body>
+
+    <script>
+        document.write("<h1>Image Viewer Application</h1>");
+        document.write("<p>Select an image from your local computer:</p>");
+    </script>
+
+    <input type="file" id="imageInput" accept="image/*">
+
+    <br><br>
+
+    <img id="preview" width="500" style="display:none;">
+
+    <br><br>
+
+    <a href="https://flask.palletsprojects.com/en/stable/quickstart/#" target="_blank">
+        Flask Quickstart Documentation
+    </a>
+
+    <script>
+        const imageInput = document.getElementById("imageInput");
+        const preview = document.getElementById("preview");
+
+        imageInput.addEventListener("change", function(event) {
+            const file = event.target.files[0];
+
+            if (file) {
+                preview.src = URL.createObjectURL(file);
+                preview.style.display = "block";
+            }
+        });
+    </script>
+
+</body>
+</html>
